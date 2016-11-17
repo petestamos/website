@@ -1,2 +1,2 @@
 # website
-A repository of files associated with my personal website.
+Files associated with my personal website
