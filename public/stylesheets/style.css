@@ -291,6 +291,7 @@ h1 {
   float: none; }
 
 .social-container {
+  padding-top: 0.4rem;
   text-align: center; }
 
 .social-icons {
