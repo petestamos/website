@@ -114,7 +114,7 @@ h1 {
   position: absolute;
   left: 0;
   display: block;
-  width: 1.5rem;
+  width: 1.35rem;
   height: 0.16rem;
   border-radius: 9px;
   background: #FFF; }
@@ -123,10 +123,10 @@ h1 {
   top: 0; }
 
 .hamburger div:nth-child(2), .hamburger div:nth-child(3) {
-  top: 0.45rem; }
+  top: 0.4rem; }
 
 .hamburger div:nth-child(4) {
-  top: 0.85rem; }
+  top: 0.8rem; }
 
 /********************************************************************
                               JUMBOTRON */
@@ -348,18 +348,18 @@ h1 {
   .featurette-divider {
     width: 95%; }
   .jumbotron {
-    height: 60vh; }
+    height: 58vh; }
   .jumbotron h1 {
     font-size: 1.8rem;
     width: 70%;
-    margin-top: 25%;
+    margin-top: 23%;
     margin-left: -0.5rem;
     border-left: 4px solid #55ffb8;
     padding-left: 1.25rem; }
   .content-header {
     font-size: 2.5rem; }
   #about-image {
-    width: 75%; }
+    width: 70%; }
   #about-paragraph {
     font-size: 0.8rem;
     text-align: justify;
@@ -375,16 +375,16 @@ h1 {
     border: 4px solid #333;
     border-radius: 0; }
   .pitt-cs-image {
-    width: 95%;
+    width: 90%;
     margin-top: 2rem;
     margin-left: 0;
     margin-right: 0; }
   .calc-image {
-    width: 95%;
+    width: 90%;
     margin-left: 0;
     margin-right: 0; }
   .chess-image {
-    width: 95%;
+    width: 90%;
     margin-left: 0;
     margin-right: 0; }
   .portfolio-header {
@@ -405,7 +405,7 @@ h1 {
   #calc-header {
     margin-top: 2rem; }
   .seal {
-    width: 65%;
+    width: 60%;
     border: 2px solid #FFF; }
   #pitt-seal {
     margin-top: 1.5rem; }
