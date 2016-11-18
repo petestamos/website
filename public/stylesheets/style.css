@@ -51,7 +51,7 @@ h1 {
                             TOP NAVIGATION */
 /******************************************************************** */
 #nav-top {
-  background: #222; }
+  background: #2F2F2F; }
 
 .fa-terminal {
   margin-top: 0.05rem;
@@ -91,7 +91,7 @@ h1 {
 .navbar-brand {
   color: #55ffb8 !important;
   font-family: 'Slabo 27px', serif;
-  width: 80%;
+  width: 55%;
   margin-top: 0.2rem;
   font-size: 1.2rem; }
 
@@ -340,7 +340,8 @@ h1 {
 @media screen and (max-width: 992px) {
   .navbar-brand {
     margin-top: 0rem;
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    width: 80%; }
   #navbarResponsive {
     float: left; }
   .content-separator {
@@ -433,7 +434,8 @@ h1 {
 @media screen and (max-width: 320px) {
   .navbar-brand {
     margin-top: 0.25rem;
-    font-size: 1.08rem; }
+    font-size: 1.08rem;
+    width: 80%; }
   .jumbotron h1 {
     font-size: 1.75rem;
     width: 85%;
