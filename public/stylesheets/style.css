@@ -601,7 +601,7 @@ h1 {
   .skillset li {
     font-size: 0.9rem; }
   .social-icons {
-    margin-top: -0.1rem; } }
+    margin-top: 0.25rem; } }
 
 /********************************************************************
                   IPAD MINI 4 / AIR 2 PORTRAIT MDOE */
@@ -676,7 +676,7 @@ h1 {
     width: 15rem;
     font-size: 0.8rem; }
   .social-icons {
-    margin-top: -0.1rem; } }
+    margin-top: 0.25rem; } }
 
 /********************************************************************
                  IPAD MINI 4 / AIR 2 LANDSCAPE MDOE */
@@ -754,7 +754,7 @@ h1 {
   .skillset li {
     font-size: 0.95rem; }
   .social-icons {
-    margin-top: 0.2rem; }
+    margin-top: -0.25rem; }
   .social-icons li a {
     font-size: 2.2rem; } }
 
@@ -777,11 +777,11 @@ h1 {
   .featurette-divider {
     width: 95%; }
   .jumbotron {
-    height: 58vh; }
+    height: 60vh; }
   .jumbotron h1 {
     font-size: 1.75rem;
     width: 70%;
-    top: 5.5rem; }
+    top: 5.75rem; }
   .row {
     padding: 2rem; }
   .content-header {
@@ -859,7 +859,11 @@ h1 {
   .skills-row {
     padding-bottom: 4.5rem; }
   .navbar-fixed-bottom {
-    height: 3.5rem; } }
+    height: 3.5rem; }
+  .social-icons {
+    margin-top: -0.15rem; }
+  .social-icons li a {
+    font-size: 2rem; } }
 
 /********************************************************************
                        IPHONE 6+ LANDSCAPE MODE */
@@ -1083,7 +1087,11 @@ h1 {
   .skills-row {
     padding-bottom: 4rem; }
   .navbar-fixed-bottom {
-    height: 3.5rem; } }
+    height: 3.5rem; }
+  .social-icons {
+    margin-top: -0.15rem; }
+  .social-icons li a {
+    font-size: 1.9rem; } }
 
 /********************************************************************
                       IPHONE 6 LANDSCAPE MODE */
