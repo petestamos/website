@@ -16,7 +16,7 @@ a
   font-size: 1.25rem
 
 p
-  font-size: 1rem
+  font-size: 0.9rem
 
 .active, a:hover
   color: #55ffb8
@@ -165,13 +165,15 @@ h1
 .jumbotron h1
   position: relative
   font-family: 'Slabo 27px', serif
-  top: -7.5rem
+  top: -8rem
   font-size: 2.5rem
   text-align: left
   width: 55rem
   padding: 1rem
-  border: 4px solid #55ffb8
-  // background: rgba(50,50,50,0.9)
+  border: 2px solid #55ffb8
+  border-radius: 0.25rem
+  background: rgba(50,50,50,0.6)
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 
 /********************************************************************
                           CONTENT CONTAINER
@@ -243,9 +245,11 @@ h1
 
 .portfolio-img
   border: 1px solid #333
+  border-radius: 0.25rem
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 
 .pitt-cs-image
+  border: 1px solid #FFF
   margin-top: 2.5rem
   width: 26rem
 
@@ -324,59 +328,614 @@ h1
   font-size: 1.9rem
 
 /********************************************************************
-              RESPONSIVE OPTIONS FOR TABLETS / MOBILE
+                      RESPONSIVE DISPLAY OPTIONS
 /********************************************************************
 
-@media screen and (max-width: 1024px)
+/********************************************************************
+                      EXTRA LARGE SCREEN SIZE
+/********************************************************************
+
+@media only screen and (max-width: 1920px) and (orientation : landscape)
+
+  .navbar-brand
+    font-size: 2rem
+
+  #navbarResponsive a
+    font-size: 2rem
+
+  .content-header
+    font-size: 4rem
+    margin-bottom: 4rem
 
   .row
-    padding-bottom: 2.75rem
-
-  .portfolio-row-1
-    padding-bottom: 1.5rem
+    padding: 4.5rem
 
   .jumbotron h1
-    width: 95%
-    margin-top: 25%
+    font-size: 4rem
+    width: 72%
+    top: 14rem
 
   #about-image
-    width: 85%
+    width: 60%
     margin-right: 5%
+    margin-top: 4.75rem
+
+  #about-paragraph
+    font-size: 1.75rem
+    margin-top: 3.5rem
+
+  .portfolio-row-1
+    padding-bottom: 5rem
+
+  .portfolio-row-2
+    padding-bottom: 5rem
+
+  .portfolio-row-3
+    padding-bottom: 5rem
 
   .pitt-cs-image
-    width: 93%
-    margin-top: 2rem
-    margin-right: 10%
+    width: 80%
+    margin-top: 3.75rem
 
   .calc-image
-    width: 93%
-    margin-right: 10%
+    width: 80%
 
   .chess-image
-    width: 93%
-    margin-left: 10%
+    width: 80%
+
+  .portfolio-header
+    width: 70%
+    font-size: 3rem
+    text-align: center
+
+  #pitt-header
+    margin-top: 7rem
+
+  #chess-header
+    margin-top: 3.5rem
+
+  #calc-header
+    margin-top: 7.5rem
+
+  .portfolio-text
+    font-size: 1.65rem
+    width: 60%
 
   .seal
+    width: 40%
+    margin-top: 3rem
+
+  .university-header
     width: 60%
-    margin-top: 2rem
+    font-size: 2.5rem
+
+  .bs-details
+    font-size: 1.5rem
+
+  .bs
+    font-size: 1.5rem
 
   .skillset
     width: 100%
 
+  .second-set
+    margin-left: 9rem
+
+  .skills-row
+    padding-bottom: 7rem
+
+  .skillset li
+    font-size: 1.5rem
+
+  .navbar-fixed-bottom
+    height: 4.5rem
+
+  .social-icons
+    margin-top: 0rem
+
+  .social-icons li a
+    font-size: 2.75rem
+
+/********************************************************************
+                       IPAD PRO LANDSCAPE MODE
+/********************************************************************
+
+@media only screen and (max-width: 1366px) and (orientation : landscape)
+
+  .content-header
+    font-size: 3rem
+    margin-bottom: 3.5rem
+
+  .row
+    padding: 3.5rem
+
+  .jumbotron
+    height: 72vh
+
+  .jumbotron h1
+    font-size: 3rem
+    width: 78%
+    top: 15rem
+
+  #about-image
+    width: 70%
+    margin-right: 5%
+    margin-top: 3.75rem
+
+  #about-paragraph
+    font-size: 1.3rem
+    margin-top: 3.5rem
+
+  .pitt-cs-image
+    width: 80%
+    margin-top: 2.75rem
+    margin-right: 3rem
+
+  .calc-image
+    width: 80%
+    margin-right: 3.25rem
+
+  .chess-image
+    width: 80%
+    margin-left: 2.75rem
+
+  .portfolio-header
+    width: 70%
+    font-size: 2rem
+    text-align: center
+
+  #pitt-header
+    margin-top: 3.5rem
+
+  #chess-header
+    margin-top: 2rem
+
+  #calc-header
+    margin-top: 3.75rem
+
+  .portfolio-text
+    font-size: 1.2rem
+    width: 65%
+
+  .seal
+    width: 40%
+    margin-top: 2rem
+
+  .university-header
+    width: 80%
+    font-size: 2rem
+
+  .bs-details
+    font-size: 1.2rem
+
+  .bs
+    font-size: 1.2rem
+
+  .skillset
+    width: 100%
+
+  .second-set
+    margin-left: 4rem
+
+  .skills-row
+    padding-bottom: 7rem
+
+  .skillset li
+    font-size: 1.2rem
+
+  .social-icons
+    margin-top: -0.1rem
+
+/********************************************************************
+                        MEDIUM SCREEN SIZE
+/********************************************************************
+
+@media only screen and (max-width : 1280px)
+
+  .navbar-brand
+    font-size: 1.1rem
+
+  #navbarResponsive a
+    font-size: 1.1rem
+
+  .content-header
+    font-size: 2.25rem
+    margin-bottom: 3rem
+
+  .row
+    padding: 3rem
+
+  .jumbotron
+    height: 68vh
+
+  .jumbotron h1
+    font-size: 2.15rem
+    width: 45.5rem
+    top: 28%
+
+  #about-image
+    width: 55%
+    margin-right: -3rem
+    margin-top: 2rem
+
+  #about-paragraph
+    font-size: 0.9rem
+    margin-top: 3rem
+
+  .pitt-cs-image
+    width: 90%
+    margin-top: 2.25rem
+    margin-right: 2rem
+
+  .calc-image
+    width: 90%
+    margin-top: 0rem
+    margin-right: 3.25rem
+
+  .chess-image
+    width: 90%
+    margin-top: 0rem
+    margin-left: 2.75rem
+
+  .portfolio-header
+    width: 80%
+    font-size: 1.5rem
+    text-align: center
+
+  #pitt-header
+    margin-top: 15%
+
+  #chess-header
+    margin-top: 10%
+
+  #calc-header
+    margin-top: 15%
+
+  .portfolio-text
+    font-size: 0.95rem
+    width: 70%
+
+  .seal
+    width: 35%
+    margin-top: 1.75rem
+
+  .university-header
+    width: 80%
+    font-size: 1.75rem
+
+  .bs-details
+    font-size: 0.95rem
+
+  .bs
+    font-size: 0.95rem
+
+  .skillset
+    width: 100%
+    margin-top: 1.5rem
+    margin-left: -1rem
+
+  .second-set
+    margin-left: 3rem
+
+  .skills-row
+    padding-bottom: 6rem
+
+  .skillset li
+    font-size: 0.95rem
+
+  .navbar-fixed-bottom
+    height: 3.5rem
+
+  .social-icons
+    margin-top: 0.15rem
+
+  .social-icons li a
+    font-size: 1.5rem
+
+/********************************************************************
+                       IPAD PRO PORTRAIT MODE
+/********************************************************************
+
+@media only screen and (max-width: 1024px) and (orientation : portrait)
+
+  .content-header
+    font-size: 2.25rem
+    margin-bottom: 3rem
+
+  .row
+    padding: 3rem
+
+  .jumbotron
+    height: 50vh
+
+  .jumbotron h1
+    font-size: 2.25rem
+    width: 80%
+    top: 14rem
+
+  #about-image
+    width: 65%
+    margin-top: 1.75rem
+    margin-right: 2rem
+
+  #about-paragraph
+    font-size: 0.9rem
+    margin-top: 2.5rem
+    margin-left: 2rem
+
+  .pitt-cs-image
+    width: 90%
+    margin-top: 2rem
+    margin-right: 2.5rem
+
+  .calc-image
+    width: 90%
+    margin-right: 2.5rem
+
+  .chess-image
+    width: 90%
+    margin-left: 2rem
+
+  .portfolio-header
+    width: 70%
+    font-size: 1.5rem
+    text-align: center
+
+  #pitt-header
+    margin-top: 3.5rem
+
+  #chess-header
+    margin-top: 1.25rem
+
+  #calc-header
+    margin-top: 2.75rem
+
+  .portfolio-text
+    font-size: 0.9rem
+    width: 65%
+
+  .seal
+    width: 40%
+    margin-top: 2rem
+
+  .university-header
+    width: 80%
+    font-size: 1.5rem
+
+  .bs-details
+    font-size: 0.9rem
+
+  .bs
+    font-size: 0.9rem
+
+  .skillset
+    width: 100%
+    margin-left: -2rem
+
+  .second-set
+    margin-left: 2rem
+
+  .skills-row
+    padding-bottom: 7rem
+
+  .skillset li
+    font-size: 0.9rem
+
+  .social-icons
+    margin-top: -0.1rem
+
+/********************************************************************
+                  IPAD MINI 4 / AIR 2 PORTRAIT MDOE
+/********************************************************************
+
+@media only screen and (max-width: 768px) and (orientation : portrait)
+
+  .content-header
+    font-size: 1.75rem
+    margin-bottom: 2rem
+
+  .row
+    padding: 2rem
+
+  .jumbotron
+    height: 50vh
+
+  .jumbotron h1
+    font-size: 1.75rem
+    width: 86%
+    top: 9rem
+
+  #about-image
+    width: 80%
+    margin-top: 1.25rem
+    margin-right: 2rem
+
+  #about-paragraph
+    width: 90%
+    font-size: 0.8rem
+    margin-top: 1.25em
+    margin-left: 2rem
+
+  .pitt-cs-image
+    width: 90%
+    margin-top: 1.5rem
+    margin-right: 2.5rem
+
+  .calc-image
+    width: 90%
+    margin-right: 2.5rem
+
+  .chess-image
+    width: 90%
+    margin-left: 2rem
+
+  .portfolio-header
+    width: 80%
+    font-size: 1.15rem
+    text-align: center
+
+  .btn
+    margin-top: 0.5rem
+
+  #pitt-header
+    margin-top: 2.25rem
+    margin-bottom: 0.5rem
+    padding-bottom: 0.5rem
+
+  #chess-header
+    margin-top: 0.75rem
+
+  #calc-header
+    margin-top: 1.75rem
+
+  .portfolio-text
+    font-size: 0.75rem
+    width: 75%
+
+  .seal
+    width: 40%
+    margin-top: 1rem
+
+  .university-header
+    width: 80%
+    font-size: 1.25rem
+
+  .bs-details
+    font-size: 0.8rem
+
+  .bs
+    font-size: 0.8rem
+
+  .skillset
+    width: 100%
+    margin-left: -3rem
+    margin-top: 1.5rem
+
+  .second-set
+    margin-left: 2rem
+
   .skills-row
     padding-bottom: 5rem
 
+  .skillset li
+    width: 15rem
+    font-size: 0.8rem
+
+  .social-icons
+    margin-top: -0.1rem
+
 /********************************************************************
-                        IPHONE 6+ PORTRAIT MODE
+                 IPAD MINI 4 / AIR 2 LANDSCAPE MDOE
 /********************************************************************
 
-@media screen and (max-width: 1366px)
+@media only screen and (max-width : 1024px) and (orientation : landscape)
+
+  .navbar-brand
+    font-size: 1.5rem
+
+  #navbarResponsive a
+    font-size: 1.5rem
+
+  .content-header
+    font-size: 2.25rem
+    margin-bottom: 2.5rem
+
+  .row
+    padding: 2.5rem
+
+  .jumbotron
+    height: 70vh
 
   .jumbotron h1
-    margin-top: 21%
+    font-size: 2.25rem
+    width: 80%
+    top: 10rem
+
+  #about-image
+    width: 70%
+    margin-right: 5%
+    margin-top: 1.75rem
+
+  #about-paragraph
+    font-size: 0.95rem
+    margin-top: 2.5rem
+
+  .portfolio-row-1
+    padding-bottom: 3.25rem
+
+  .portfolio-row-2
+    padding-bottom: 3.25rem
+
+  .portfolio-row-3
+    padding-bottom: 3.25rem
+
+  .pitt-cs-image
+    width: 90%
+    margin-top: 2.25rem
+    margin-right: 3rem
+
+  .calc-image
+    width: 90%
+    margin-right: 3.25rem
+
+  .chess-image
+    width: 90%
+    margin-left: 2.75rem
+
+  .portfolio-header
+    width: 80%
+    font-size: 1.75rem
+    text-align: center
+
+  #pitt-header
+    margin-top: 2.75rem
+
+  #chess-header
+    margin-top: 2rem
+
+  #calc-header
+    margin-top: 3.5rem
+
+  .portfolio-text
+    font-size: 0.95rem
+    width: 70%
+
+  .seal
+    width: 45%
+    margin-top: 1.75rem
+
+  .university-header
+    width: 80%
+    font-size: 1.75rem
+
+  .bs-details
+    font-size: 0.95rem
+
+  .bs
+    font-size: 0.95rem
+
+  .skillset
+    width: 100%
+    margin-top: 1.5rem
+    margin-left: -1rem
+
+  .second-set
+    margin-left: 3rem
+
+  .skills-row
+    padding-bottom: 6rem
+
+  .skillset li
+    font-size: 0.95rem
+
+  .social-icons
+    margin-top: 0.2rem
+
+  .social-icons li a
+    font-size: 2.2rem
 
 /********************************************************************
-                        IPHONE 6+ PORTRAIT MODE
+                       IPHONE 6+ PORTRAIT MODE
 /********************************************************************
 
 @media only screen and (max-width : 736px) and (orientation : portrait)
@@ -388,6 +947,9 @@ h1
 
   #navbarResponsive
     float: left
+
+  #navbarResponsive a
+    font-size: 1.4rem
 
   .content-separator
     border: none
@@ -404,38 +966,38 @@ h1
   .jumbotron h1
     font-size: 1.75rem
     width: 70%
-    top: 0rem
+    top: 5.5rem
+
+  .row
+    padding: 2rem
 
   .content-header
     font-size: 2rem
 
   #about-image
     width: 100%
-    border: 1px solid #333
-    border-radius: 0
+    border-radius: 0.25rem
+    margin-top: 1.75rem
 
   #about-paragraph
-    font-size: 0.8rem
+    font-size: 0.85rem
     text-align: justify
     margin-top: 2.5rem
+    margin-left: 0
     width: 100%
 
   .portfolio-row-1
-    padding-bottom: 2rem
+    padding-bottom: 1.75rem
 
   .portfolio-row-2
-    padding-bottom: 2rem
+    padding-bottom: 1.75rem
 
   .portfolio-row-3
-    padding-bottom: 2rem
-
-  .portfolio-img
-    border: 1px solid #333
-    border-radius: 0
+    padding-bottom: 1.75rem
 
   .pitt-cs-image
     width: 100%
-    margin-top: 2rem
+    margin-top: 1.5rem
     margin-left: 0
     margin-right: 0
 
@@ -455,7 +1017,7 @@ h1
     text-align: center
 
   #pitt-header
-    margin-top: 2.5rem
+    margin-top: 2.25rem
 
   #chess-header
     margin-top: 1rem
@@ -464,7 +1026,7 @@ h1
     margin-top: 1rem
 
   .portfolio-text
-    font-size: 0.8rem
+    font-size: 0.85rem
     width: 90%
 
   #chess-header
@@ -474,34 +1036,40 @@ h1
     margin-top: 2rem
 
   .seal
-    width: 65%
+    width: 55%
     border: 1px solid #FFF
 
   #pitt-seal
-    margin-top: 1.5rem
+    margin-top: 1.25rem
+
+  #ysu-seal
+    margin-top: 1.75rem
 
   .university-header
     width: 100%
     font-size: 1.5rem
 
   .bs-details
-    font-size: 0.9rem
+    font-size: 0.85rem
 
   .bs
-    font-size: 0.9rem
+    font-size: 0.85rem
 
   .skillset
     margin-top: 1.5rem
     text-align: center
     list-style: none
-    margin-left: -1.5em
+    margin-left: 0rem
+
+  .skillset li
+    font-size: 0.85rem
 
   .second-set
-    margin-left: -1.5rem
+    margin-left: 0rem
     margin-top: 1rem
 
   .skills-row
-    padding-bottom: 5rem
+    padding-bottom: 4.5rem
 
   .navbar-fixed-bottom
     height: 3.5rem
@@ -513,7 +1081,7 @@ h1
 @media only screen and (max-width : 736px) and (orientation : landscape)
 
   .navbar-brand
-    margin-top: 0.15rem
+    margin-top: 0rem
     font-size: 1.15rem
     width: 90%
 
@@ -559,7 +1127,7 @@ h1
   .jumbotron h1
     font-size: 1.5rem
     width: 80%
-    top: -8.25rem
+    top: 0.5rem
 
   .content-header
     font-size: 1.75rem
@@ -569,10 +1137,9 @@ h1
     padding: 1.5rem
 
   #about-image
-    width: 70%
-    border: 1px solid #333
-    margin-right: -1rem
-    margin-top: 1.25rem
+    width: 75%
+    margin-right: 1rem
+    margin-top: 1.5rem
 
   #about-paragraph
     font-size: 0.7rem
@@ -587,10 +1154,6 @@ h1
 
   .portfolio-row-3
     padding-bottom: 2.25rem
-
-  .portfolio-img
-    border: 1px solid #333
-    border-radius: 0
 
   .pitt-cs-image
     width: 85%
@@ -640,14 +1203,16 @@ h1
     border: 1px solid #FFF
 
   #pitt-seal
-    margin-top: 1.25rem
+    margin-top: 1rem
 
   #ysu-seal
-    margin-top: 1.25rem
+    margin-top: 1rem
 
   .university-header
     width: 80%
     font-size: 1.25rem
+    margin-bottom: 0.75rem
+    padding-bottom: 0.75rem
 
   .bs-details
     font-size: 0.7rem
@@ -691,6 +1256,9 @@ h1
   #navbarResponsive
     float: left
 
+  #navbarResponsive a
+    font-size: 1.3rem
+
   .content-separator
     border: none
 
@@ -706,7 +1274,7 @@ h1
   .jumbotron h1
     font-size: 1.55rem
     width: 70%
-    top: 0rem
+    top: 4.5rem
 
   .content-header
     font-size: 1.75rem
@@ -717,6 +1285,7 @@ h1
 
   #about-image
     margin-top: 1.5rem
+    border-radius: 0.25rem
 
   #about-paragraph
     font-size: 0.75rem
@@ -732,10 +1301,6 @@ h1
 
   .portfolio-row-3
     padding-bottom: 1.25rem
-
-  .portfolio-img
-    border: 1px solid #333
-    border-radius: 0
 
   .pitt-cs-image
     width: 100%
@@ -759,13 +1324,15 @@ h1
     text-align: center
 
   #pitt-header
-    margin-top: 1.4rem
+    margin-top: 1.75rem
+    margin-bottom: 1.25rem
+    padding-bottom: 1.25rem
 
   #chess-header
-    margin-top: 1.4rem
+    margin-top: 1.5rem
 
   #calc-header
-    margin-top: 1.25rem
+    margin-top: 1.5rem
 
   .portfolio-text
     font-size: 0.75rem
@@ -792,13 +1359,13 @@ h1
     margin-top: 1rem
     text-align: center
     list-style: none
-    margin-left: -1.5em
+    margin-left: -1.25em
 
   .skillset li
     font-size: 0.75rem
 
   .second-set
-    margin-left: -1.5rem
+    margin-left: -1.25rem
     margin-top: 1rem
 
   .skills-row
@@ -860,20 +1427,19 @@ h1
   .jumbotron h1
     font-size: 1.4rem
     width: 81%
-    top: -8rem
+    top: 0rem
 
   .content-header
     font-size: 1.65rem
-    margin-bottom: 1.25rem
+    margin-bottom: 1.15rem
 
   .row
     padding: 1.25rem
 
   #about-image
-    width: 73%
-    border: 1px solid #333
+    width: 75%
     margin-right: 0rem
-    margin-top: 1.25rem
+    margin-top: 1.65rem
 
   #about-paragraph
     font-size: 0.6rem
@@ -888,10 +1454,6 @@ h1
 
   .portfolio-row-3
     padding-bottom: 1.5rem
-
-  .portfolio-img
-    border: 1px solid #333
-    border-radius: 0
 
   .pitt-cs-image
     width: 90%
@@ -911,21 +1473,21 @@ h1
 
   .portfolio-header
     width: 80%
-    font-size: 1rem
+    font-size: 1.2rem
     text-align: center
 
   #pitt-header
-    margin-top: 2rem
-    margin-bottom: 0.75rem
-    padding-bottom: 0.5rem
-
-  #chess-header
     margin-top: 1.75rem
     margin-bottom: 0.75rem
     padding-bottom: 0.5rem
 
+  #chess-header
+    margin-top: 1.25rem
+    margin-bottom: 0.75rem
+    padding-bottom: 0.5rem
+
   #calc-header
-    margin-top: 2.5rem
+    margin-top: 2.25rem
     margin-bottom: 0.75rem
     padding-bottom: 0.5rem
 
@@ -950,7 +1512,7 @@ h1
     width: 80%
     font-size: 1rem
     margin-bottom: 0.75rem
-    padding-bottom: 0.75rem
+    padding-bottom: 0.65rem
 
   .bs-details
     font-size: 0.6rem
@@ -988,7 +1550,7 @@ h1
 
   .navbar-brand
     margin-top: 0rem
-    font-size: 1.25rem
+    font-size: 1.15rem
     width: 80%
 
   #navbarResponsive
@@ -1039,7 +1601,7 @@ h1
   .jumbotron h1
     font-size: 1.3rem
     width: 72%
-    top: -0.25rem
+    top: 3.25rem
 
   .row
     padding: 1.5rem
@@ -1050,6 +1612,7 @@ h1
 
   #about-image
     margin-top: 1rem
+    border-radius: 0.25rem
 
   #about-paragraph
     font-size: 0.7rem
@@ -1063,9 +1626,6 @@ h1
 
   .portfolio-row-3
     padding-bottom: 1.5rem
-
-  .portfolio-img
-    border-radius: 0
 
   .pitt-cs-image
     width: 100%
@@ -1117,6 +1677,8 @@ h1
   .university-header
     width: 100%
     font-size: 1.25rem
+    margin-bottom: 1rem
+    padding-bottom: 0.75rem
 
   .bs-details
     font-size: 0.7rem
@@ -1128,26 +1690,25 @@ h1
     margin-top: 0.75rem
     text-align: center
     list-style: none
-    margin-left: -1.5em
+    margin-left: -2.6rem
 
   .second-set
-    margin-left: -1.5rem
     margin-top: 1rem
 
   .skillset li
     font-size: 0.7rem
 
   .skills-row
-    padding-bottom: 4rem
+    padding-bottom: 3.5rem
 
   .navbar-fixed-bottom
     height: 3rem
 
   .social-icons
-    margin-top: -0.25rem
+    margin-top: -0.15rem
 
   .social-icons li a
-    font-size: 1.65rem
+    font-size: 1.5rem
 
 /********************************************************************
                        IPHONE SE LANDSCAPE MODE
@@ -1205,7 +1766,7 @@ h1
   .jumbotron h1
     font-size: 1.15rem
     width: 76%
-    top: -6.25rem
+    top: 0.75rem
 
   .content-header
     font-size: 1.4rem
@@ -1216,7 +1777,6 @@ h1
 
   #about-image
     width: 40%
-    border: 1px solid #333
     margin-top: 0.75rem
 
   #about-paragraph
@@ -1233,10 +1793,6 @@ h1
 
   .portfolio-row-3
     padding-bottom: 1rem
-
-  .portfolio-img
-    border: 1px solid #333
-    border-radius: 0
 
   .pitt-cs-image
     width: 60%
